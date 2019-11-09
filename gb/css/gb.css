@@ -183,7 +183,6 @@ a:hover {
 
 
 .card .play_story {
-  /* visibility: hidden; */
   opacity: 0;
   z-index: 10;
   position: absolute;
@@ -195,7 +194,6 @@ a:hover {
   max-width: 40px;
 }
 .card:hover .play_story {
-  /* visibility: visible; */
   opacity: 1;
 }
 /* .titlebar_light {
@@ -720,10 +718,11 @@ img.inline {
   display: none;
 }
 .card .play_story {
-  margin: -50px 0 0 -50px;
+  margin: -20px 0 0 -40px;
+  opacity: 1;
 }
 .card .play_story img {
-  max-width: 100px;
+  max-width: 80px;
 }
 img.homebtn_stories {
   opacity: 1;
