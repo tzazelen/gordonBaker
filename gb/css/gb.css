@@ -183,7 +183,8 @@ a:hover {
 
 
 .card .play_story {
-  visibility: hidden;
+  /* visibility: hidden; */
+  opacity: 0;
   z-index: 10;
   position: absolute;
   left: 50%;
@@ -194,7 +195,8 @@ a:hover {
   max-width: 40px;
 }
 .card:hover .play_story {
-  visibility: visible;
+  /* visibility: visible; */
+  opacity: 1;
 }
 /* .titlebar_light {
   font-size: 14px;
@@ -225,7 +227,9 @@ a:hover {
   border-bottom-left-radius: 4px;
 }
 .card img:hover ~ .titlebar_dark,
-.card .play_story img:hover ~ .titlebar_dark {
+.card .play_story:hover ~ .titlebar_dark,
+.titlebar_dark:hover {
+  padding: 10px;
   opacity: 1;
 }
 .footer {
