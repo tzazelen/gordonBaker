@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+     <title>Gordon Baker</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/gb.css" rel="stylesheet">
+    <link href="css/icomoon.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- -- preload audio files -- -->
+    <audio preload="auto">
+        <source src="audio/aircrew.mp3" type="audio/mpeg">
+        <source src="audio/fido.mp3" type="audio/mpeg">
+        <source src="audio/food.mp3" type="audio/mpeg">
+        <source src="audio/lancaster.mp3" type="audio/mpeg">
+        <source src="audio/milk.mp3" type="audio/mpeg">
+        <source src="audio/rationing.mp3" type="audio/mpeg">
+        <source src="audio/stettin.mp3" type="audio/mpeg">
+        <source src="audio/war_declared.mp3" type="audio/mpeg">
+        <source src="audio/women_pilots.mp3" type="audio/mpeg">
+    </audio>
+
+		<div class="backdrop-img staughton">
+		</div>
+
+    <div class="container">
+        <div class="main">
+          <h1 class="leftside">Gordon Baker, DFC</h1>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li class="active">Stories</li>
+            <li><a href="extras.html">Extras</a></li>
+          </ul>
+          <hr>
+
+          <div class="content">
+              <div class="row">
+                <a href="#" id="play-war">
+                  <div class="card-container">
+                    <div class="card">
+                      <img src="img_card/war1.jpg">
+                      <h2 class="titlebar_dark">War Declared</h2>
+                      <div class="play_story">
+                        <img src="img/playbtn_dark.png">
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" id="play-lancaster">
+                  <div class="card-container">
+                    <div class="card">
+                      <img src="img_card/lancaster.jpg">
+                      <h2 class="titlebar_dark">Lancaster</h2>
+                      <div class="play_story">
+                        <img src="img/playbtn_light.png">
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" id="play-aircrew">
+                  <div class="card-container">
+                    <div class="card">
+                      <img src="img_card/aircrew.jpg">
+                      <h2 class="titlebar_dark">Aircrew</h2>
+                      <div class="play_story">
+                        <img src="img/playbtn_light.png">
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" id="play-food">
+                  <div class="card-container">
+                    <div class="card">
+                      <img src="img_card/food.jpg">
+                      <h2 class="titlebar_dark">Food</h2>
+                      <div class="play_story">
+                        <img src="img/playbtn_light.png">
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" id="play-fido">
+                  <div class="card-container">
+                    <div class="card">
+                      <img src="img_card/fido.jpg">
+                      <h2 class="titlebar_dark">FIDO</h2>
+                      <div class="play_story">
+                        <img src="img/playbtn_light.png">
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" id="play-rationing">
+                  <div class="card-container">
+                    <div class="card">
+                      <img src="img_card/rationing.jpg">
+                      <div class="play_story">
+                        <img src="img/playbtn_dark.png">
+                      </div>
+                      <h2 class="titlebar_dark">Rationing</h2>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" id="play-milk">
+                  <div class="card-container">
+                    <div class="card">
+                      <img src="img_card/condensedMilk.jpg">
+                      <h2 class="titlebar_dark">Condensed Milk</h2>
+                      <div class="play_story">
+                        <img src="img/playbtn_light.png">
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" id="play-stettin">
+                  <div class="card-container">
+                    <div  class="card">
+                      <img src="img_card/stettin.jpg">
+                      <h2 class="titlebar_dark">Stettin</h2>
+                      <div class="play_story">
+                        <img src="img/playbtn_light.png">
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="#" id="play-womenPilots">
+                  <div class="card-container">
+                    <div class="card">
+                        <img src="img_card/womenPilots.jpg">
+                      <h2 class="titlebar_dark">Women Pilots</h2>
+                      <div class="play_story">
+                        <img src="img/playbtn_light.png">
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- - - - hamburger icon to return to Stories.html - - - -->
+    <div class="home-btn-stories">
+      <a href="stories.html"><img src="img/home_stories.png" id="home" class="homebtn_stories"></a>
+    </div>
+
+<!-- - - - background photos for stories - - - -->
+    <div class="stories">
+<!-- - - - war - - - -->
+      <div id="war1" class="bg-img war" >
+      </div>
+      <div id="war2" class="bg-img war"  >
+      </div>
+      <div id="war3" class="bg-img war"  >
+      </div>
+<!-- - - - lancaster - - - -->
+      <div id="lanc1" class="bg-img" >
+      </div>
+      <div id="lanc2" class="bg-img" >
+      </div>
+      <div id="lanc3" class="bg-img" >
+      </div>
+<!-- - - - aircrew - - - -->
+      <div id="aircrew1" class="bg-img" >
+      </div>
+      <div id="aircrew2" class="bg-img" >
+      </div>
+      <div id="aircrew3" class="bg-img" >
+      </div>
+<!-- - - - food - - - -->
+      <div id="food1" class="bg-img" >
+      </div>
+      <div id="food2" class="bg-img" >
+      </div>
+      <div id="food3" class="bg-img" >
+      </div>
+<!-- - - - fido - - - -->
+      <div id="fido1" class="bg-img" >
+      </div>
+      <div id="fido2" class="bg-img" >
+      </div>
+      <div id="fido3" class="bg-img" >
+      </div>
+      <div id="fido4" class="bg-img" >
+      </div>
+      <div id="fido5" class="bg-img" >
+      </div>
+      <div id="fido6" class="bg-img" >
+      </div>
+      <div id="fido7" class="bg-img" >
+      </div>
+      <div id="fido8" class="bg-img" >
+      </div>
+<!-- - - - rationing - - - -->
+      <div id="ration1" class="bg-img" >
+      </div>
+      <div id="ration2" class="bg-img" >
+      </div>
+      <div id="ration3" class="bg-img" >
+      </div>
+      <div id="ration4" class="bg-img" >
+      </div>
+<!-- - - - milk - - - -->
+      <div id="milk1" class="bg-img" >
+      </div>
+      <div id="milk2" class="bg-img" >
+      </div>
+      <div id="milk3" class="bg-img" >
+      </div>
+<!-- - - - stettin - - - -->
+      <div id="stettin1" class="bg-img" >
+      </div>
+      <div id="stettin2" class="bg-img" >
+      </div>
+      <div id="stettin3" class="bg-img" >
+      </div>
+      <div id="stettin4" class="bg-img" >
+      </div>
+      <div id="stettin5" class="bg-img" >
+      </div>
+      <div id="stettin6" class="bg-img" >
+      </div>
+<!-- - - - womenPilots - - - -->
+      <div id="womenPilots1" class="bg-img" >
+      </div>
+       <div id="womenPilots2" class="bg-img"  >
+      </div>
+       <div id="womenPilots3" class="bg-img"  >
+      </div>
+       <div id="womenPilots4" class="bg-img"  >
+      </div>
+       <div id="womenPilots5" class="bg-img"  >
+      </div>
+    </div>
+
+
+     <footer class="footer">
+        <p class="location">Little Staughton Airfield, UK /2009 <span class="copyright">© 2019</span></p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+<script>
+		$(document).ready(function(){
+
+// - - - animate cards - - -
+      $('.card').each(function(i,v){
+        $(this).delay(i*200).fadeIn(200);
+      });
+
+// - - - war - - -
+      $('#play-war').click(function() {
+
+          var audioElement = document.createElement('audio');
+          audioElement.setAttribute('src', 'audio/war_declared.mp3');
+            audioElement.play();
+            audioElement.onplaying = function() {
+              $("#war1").fadeIn(2000).empty();
+      		    $(".container").hide();
+      		    $(".footer").hide();
+      		    $(".home-btn-stories").fadeIn(2000);
+          }
+
+          audioElement.addEventListener('ended', function() {
+            $("#war3").fadeOut(2000).empty();
+            audioElement.pause();
+            location.href = "stories.html"
+          }, false);
+
+          var transition1 = function() {
+            $("#war1").fadeOut(2000).empty();
+            $("#war2").fadeIn(2000).empty();
+          }
+          setTimeout(transition1, 11000);
+
+          var transition2 = function() {
+            $("#war2").fadeOut(2000).empty();
+            $("#war3").fadeIn(2000).empty();
+          }
+          setTimeout(transition2, 21000);
+
+      });
+
+// - - - lancaster - - -
+      $('#play-lancaster').click(function() {
+
+          var audioElement = document.createElement('audio');
+          audioElement.setAttribute('src', 'audio/lancaster.mp3');
+            audioElement.play();
+            audioElement.onplaying = function() {
+              $("#lanc1").fadeIn(2000).empty();
+        		  $(".container").hide();
+      		    $(".footer").hide();
+      		    $(".home-btn-stories").fadeIn(2000);
+          }
+
+          audioElement.addEventListener('ended', function() {
+            $("#lanc3").fadeOut(2000).empty();
+            audioElement.pause();
+            location.href = "stories.html"
+          }, false);
+
+          var transition1 = function() {
+            $("#lanc1").fadeOut(2000).empty();
+            $("#lanc2").fadeIn(2000).empty();
+          }
+          setTimeout(transition1, 8000);
+
+          var transition2 = function() {
+            $("#lanc2").fadeOut(2000).empty();
+            $("#lanc3").fadeIn(2000).empty();
+          }
+          setTimeout(transition2, 14000);
+
+      });
+
+// - - - aircrew - - -
+        $('#play-aircrew').click(function() {
+
+            var audioElement = document.createElement('audio');
+            audioElement.setAttribute('src', 'audio/aircrew.mp3');
+            audioElement.play();
+            audioElement.onplaying = function() {
+      		    $("#aircrew1").fadeIn(2000).empty();
+      		    $(".container").hide();
+      		    $(".footer").hide();
+      		    $(".home-btn-stories").fadeIn(2000);
+            }
+
+            audioElement.addEventListener('ended', function() {
+          		$("#aircrew3").fadeOut(2000).empty();
+              audioElement.pause();
+              location.href = "stories.html"
+            }, false);
+
+        		var transition1 = function() {
+        		  $("#aircrew1").fadeOut(2000).empty();
+        		  $("#aircrew2").fadeIn(2000).empty();
+        		}
+        		setTimeout(transition1, 8000);
+
+        		var transition2 = function() {
+        		  $("#aircrew2").fadeOut(2000).empty();
+        		  $("#aircrew3").fadeIn(2000).empty();
+        		}
+        		setTimeout(transition2, 15000);
+
+        });
+// - - - food - - -
+        $('#play-food').click(function() {
+            var audioElement = document.createElement('audio');
+            audioElement.setAttribute('src', 'audio/food.mp3');
+            audioElement.play();
+            audioElement.onplaying = function() {
+      		    $("#food1").fadeIn(2000).empty();
+      		    $(".container").hide();
+      		    $(".footer").hide();
+      		    $(".home-btn-stories").fadeIn(2000);
+            }
+
+            audioElement.addEventListener('ended', function() {
+        		  $("#food3").fadeIn(2000).empty();
+              audioElement.pause();
+              location.href = "stories.html"
+            }, false);
+
+        		var transition1 = function() {
+        		  $("#food1").fadeOut(2000).empty();
+        		  $("#food2").fadeIn(2000).empty();
+        		}
+        		setTimeout(transition1, 11500);
+
+        		var transition2 = function() {
+        		  $("#food2").fadeOut(2000).empty();
+        		  $("#food3").fadeIn(2000).empty();
+        		}
+        		setTimeout(transition2, 31000);
+
+        });
+// - - - fido - - -
+        $('#play-fido').click(function() {
+
+            var audioElement = document.createElement('audio');
+            audioElement.setAttribute('src', 'audio/fido.mp3');
+            audioElement.play();
+            audioElement.onplaying = function() {
+      		    $("#fido1").fadeIn(2000).empty();
+      		    $(".container").hide();
+      		    $(".footer").hide();
+      		    $(".home-btn-stories").fadeIn(2000);
+            }
+
+            audioElement.addEventListener('ended', function() {
+        		  $("#fido8").fadeOut(2000).empty();
+              audioElement.pause();
+              location.href = "stories.html"
+            }, false);
+
+        		var transition1 = function() {
+        		  $("#fido1").fadeOut(2000).empty();
+        		  $("#fido2").fadeIn(2000).empty();
+        		}
+        		setTimeout(transition1, 14000);
+
+        		var transition2 = function() {
+        		  $("#fido2").fadeOut(2000).empty();
+        		  $("#fido3").fadeIn(2000).empty();
+        		}
+        		setTimeout(transition2, 24000);
+
+        		var transition3 = function() {
+        		  $("#fido3").fadeOut(2000).empty();
+        		  $("#fido4").fadeIn(2000).empty();
+        		}
+        		setTimeout(transition3, 32000);
+
+        		var transition4 = function() {
+        		  $("#fido4").fadeOut(2000).empty();
+        		  $("#fido5").fadeIn(2000).empty();
+        		}
+        		setTimeout(transition4, 42000);
+
+        		var transition5 = function() {
+        		  $("#fido5").fadeOut(2000).empty();
+        		  $("#fido6").fadeIn(2000).empty();
+        		}
+        		setTimeout(transition5, 50000);
+
+        		var transition6 = function() {
+        		  $("#fido6").fadeOut(2000).empty();
+        		  $("#fido7").fadeIn(2000).empty();
+        		}
+        		setTimeout(transition6, 58000);
+
+        		var transition7 = function() {
+        		  $("#fido7").fadeOut(2000).empty();
+        		  $("#fido8").fadeIn(2000).empty();
+        		}
+        		setTimeout(transition7, 60000);
+
+        });
+// - - - rationing - - -
+        $('#play-rationing').click(function() {
+
+            var audioElement = document.createElement('audio');
+            audioElement.setAttribute('src', 'audio/rationing.mp3');
+            audioElement.play();
+            audioElement.onplaying = function() {
+      		    $("#ration1").fadeIn(2000).empty();
+      		    $(".container").hide();
+      		    $(".footer").hide();
+      		    $(".home-btn-stories").fadeIn(2000);
+            }
+
+            audioElement.addEventListener('ended', function() {
+        		  $("#ration3").fadeOut(2000).empty();
+              audioElement.pause();
+              location.href = "stories.html"
+            }, false);
+
+        		var transition1 = function() {
+        		  $("#ration1").fadeOut(2000).empty();
+        		  $("#ration2").fadeIn(2000).empty();
+        		}
+        		setTimeout(transition1, 11000);
+
+        		var transition2 = function() {
+        		  $("#ration2").fadeOut(2000).empty();
+        		  $("#ration3").fadeIn(2000).empty();
+        		}
+        		setTimeout(transition2, 17000);
+
+        });
+// - - - milk - - -
+      $('#play-milk').click(function() {
+
+          var audioElement = document.createElement('audio');
+          audioElement.setAttribute('src', 'audio/milk.mp3');
+            audioElement.play();
+            audioElement.onplaying = function() {
+            $("#milk1").fadeIn(2000).empty();
+      		  $(".container").hide();
+      		  $(".footer").hide();
+      		  $(".home-btn-stories").fadeIn(2000);
+          }
+
+          audioElement.addEventListener('ended', function() {
+            $("#ration2").fadeOut(2000).empty();
+            audioElement.pause();
+            location.href = "stories.html"
+          }, false);
+
+          var transition1 = function() {
+            $("#milk1").fadeOut(2000).empty();
+            $("#milk2").fadeIn(2000).empty();
+          }
+          setTimeout(transition1, 11500);
+
+      });
+
+// - - - stettin - - -
+        $('#play-stettin').click(function() {
+
+            var audioElement = document.createElement('audio');
+            audioElement.setAttribute('src', 'audio/stettin.mp3');
+            audioElement.play();
+            audioElement.onplaying = function() {
+              $("#stettin1").fadeIn(2000).empty();
+      		    $(".container").hide();
+      		    $(".footer").hide();
+      		    $(".home-btn-stories").fadeIn(2000);
+            }
+
+            audioElement.addEventListener('ended', function() {
+              $("#stettin6").fadeOut(2000).empty();
+              audioElement.pause();
+              location.href = "stories.html"
+            }, false);
+
+            var transition1 = function() {
+              $("#stettin1").fadeOut(2000).empty();
+              $("#stettin2").fadeIn(2000).empty();
+            }
+            setTimeout(transition1, 8000);
+
+            var transition2 = function() {
+              $("#stettin2").fadeOut(2000).empty();
+              $("#stettin3").fadeIn(2000).empty();
+            }
+            setTimeout(transition2, 14000);
+
+            var transition3 = function() {
+              $("#stettin3").fadeOut(2000).empty();
+              $("#stettin4").fadeIn(2000).empty();
+            }
+            setTimeout(transition3, 20000);
+
+            var transition4 = function() {
+              $("#stettin4").fadeOut(2000).empty();
+              $("#stettin5").fadeIn(2000).empty();
+            }
+            setTimeout(transition4, 33000);
+
+            var transition5 = function() {
+              $("#stettin5").fadeOut(2000).empty();
+              $("#stettin6").fadeIn(2000).empty();
+            }
+            setTimeout(transition5, 44000);
+
+        });
+// - - - womenPilots - - -
+      $('#play-womenPilots').click(function() {
+
+          var audioElement = document.createElement('audio');
+          audioElement.setAttribute('src', 'audio/women_pilots.mp3');
+            audioElement.play();
+            audioElement.onplaying = function() {
+              $("#womenPilots1").fadeIn(2000).empty();
+        		  $(".container").hide();
+      		    $(".footer").hide();
+      		    $(".home-btn-stories").fadeIn(2000);
+            }
+
+          audioElement.addEventListener('ended', function() {
+            $("#womenPilots5").fadeOut(2000).empty();
+            audioElement.pause();
+            location.href = "stories.html"
+          }, false);
+
+          var transition1 = function() {
+            $("#womenPilots1").fadeOut(2000).empty();
+            $("#womenPilots2").fadeIn(2000).empty();
+          }
+          setTimeout(transition1, 22000);
+
+          var transition2 = function() {
+            $("#womenPilots2").fadeOut(2000).empty();
+            $("#womenPilots3").fadeIn(2000).empty();
+          }
+          setTimeout(transition2, 28000);
+
+          var transition3 = function() {
+            $("#womenPilots3").fadeOut(2000).empty();
+            $("#womenPilots4").fadeIn(2000).empty();
+          }
+          setTimeout(transition3, 33000);
+
+          var transition4 = function() {
+            $("#womenPilots4").fadeOut(2000).empty();
+            $("#womenPilots5").fadeIn(2000).empty();
+          }
+          setTimeout(transition4, 38000);
+
+      });
+
+    });
+
+
+  </script>
+
+  </body>
+</html>
