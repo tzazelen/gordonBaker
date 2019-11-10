@@ -401,6 +401,10 @@ p.subtext {
 	background-image: url("../img/milk2.jpg");
 	display: none;
 }
+#milk3 {
+	background-image: url("../img/milk3.jpg");
+	display: none;
+}
 #lanc1 {
 	background-image: url("../img/lanc1.jpg");
 	display: none;
